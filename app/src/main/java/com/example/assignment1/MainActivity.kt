@@ -101,7 +101,7 @@ fun MobilityLensScreen() {
         mutableStateOf(true)
     }
 
-    var currentDimension = dimensions[currentIndex]
+    val currentDimension = dimensions[currentIndex]
 
     Scaffold(
         modifier = Modifier.fillMaxSize()
@@ -165,6 +165,9 @@ fun MobilityLensScreen() {
                     if(hasError) {
                         Text("Field cannot be empty.")
                     }
+                },
+                label = {
+                    Text("App name")
                 },
                 maxLines = 20
 

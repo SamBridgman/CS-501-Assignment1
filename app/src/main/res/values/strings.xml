@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">Assignment 1</string>
+    <string name="app_name">Assignment1</string>
+
+    <string name="mobility_lens_title">Mobility Lens</string>
+    <string name="mobility_lens_introduction">Explore six ways mobile applications differ from other applications and consider their design implications.</string>
+
+    <string name="input_name">Input and interaction</string>
+    <string name="input_constraint">Mobile users interact through touch, gestures, voice, and small on-screen controls</string>
+    <string name="input_implication">Use large touch targets, simple navigation, clear feedback, and generally, stay away from precise inputs.</string>
+
+    <string name="screen_name">Screen size, orientation, and density</string>
+    <string name="screen_constraint">Mobile devices come in varying different sizes of screen sizes, pixel density and portrait dimensions.</string>
+    <string name="screen_implication">Create responsive layouts that can adapt to varying sizes and keeps everything readable and usable.</string>
+
+    <string name="lifecycle_name">Lifecycle and resource constraints</string>
+    <string name="lifecycle_constraint">Mobile apps have limited battery, memory and processing power. They can also be paused stopped and rebooted at any time.</string>
+    <string name="lifecycle_implication">Make sure to preserve important states, avoid unnecessary imports and background work.</string>
+
+    <string name="context_name">Context awareness</string>
+    <string name="context_constraint">A mobile device can detect information such as location, movement, time, connectivity, and nearby devices.</string>
+    <string name="context_implication">Only use this information when absolutely necessary, and ask for permission first.</string>
+
+    <string name="usage_name">Usage patterns</string>
+    <string name="usage_constraint">Mobile apps are often used in short interupted spurts, accompanied by different environments.</string>
+    <string name="usage_implication">Make common tasks quick, save progress automatically and often, and allow users to resume where they stopped.</string>
+
+    <string name="security_name">Security and privacy expectations</string>
+    <string name="security_constraint">Mobile devices store personal information and may be lost, shared, or potentially through insecure networks.</string>
+    <string name="security_implication">Collect only necessary data, protect information, and explain permission requests.</string>
+
 </resources>
