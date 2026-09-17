@@ -7,23 +7,29 @@ Medium Phone API 36 on Android 16
 
 MIN SDK: 29
 This is the minimum required SDK needed to run the application. Chose this because its the latest version that 90% of devices are compatible with.
+
 TARGET SDK: 36
 This is the Android version your app is designed and tested for
+
 COMPILE SDK: 36
 This is the Android SDK used to compile the app
 
 MainActivity
 Location: app/src/main/java/com/example/assignment1/MainActivity.kt
 Purpose: It’s the apps main activity, its starts the compose interface
+
 AndroidManifest.xml
 Location: app/src/main/AndroidManifest.xml
 Purpose: Describes the app to Android, declares activities, themes, and permissions
+
 App-level Gradle file:
 Location: app/build.gradle.kts
 Purpose: Configures the app module, such as the SDK info, app ID,  and dependencies.
+
 Version catalog:
 Location:gradle/libs.versions.toml
 Purpose: Stores dependency and plugin versions in one place.
+
 Strings.xml:
 Location:app/src/main/res/values/strings.xml
 Purpose:Stores text displayed by the application. Gradle can reference this
